@@ -1,0 +1,13 @@
+v 4
+file . "tb_calculadora.vhd" "5827650b77f6b42fb23234d07040a1ddf7576ce8" "20260519225408.071":
+  entity tb_calculadora at 1( 0) + 0 on 17;
+  architecture sim of tb_calculadora at 7( 82) + 0 on 18;
+file . "somador_subtrator_8bits.vhd" "361c5494f2ad09d84298ccb9bf3b9ad9e856c284" "20260519225408.024":
+  entity somador_subtrator_8bits at 1( 0) + 0 on 13;
+  architecture estrutural of somador_subtrator_8bits at 13( 267) + 0 on 14;
+file . "somador_completo_1bit.vhd" "86874ab1b81f57f4af0b4c09eee275720873b13b" "20260519225408.002":
+  entity somador_completo_1bit at 1( 0) + 0 on 11;
+  architecture dataflow of somador_completo_1bit at 11( 176) + 0 on 12;
+file . "calculadora.vhd" "ca2fefb6969f0ddb9123b16a1a0cac6d77f36202" "20260519225408.045":
+  entity calculadora at 1( 0) + 0 on 15;
+  architecture arch of calculadora at 13( 268) + 0 on 16;
