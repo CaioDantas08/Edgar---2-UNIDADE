@@ -1,0 +1,89 @@
+$date
+  Tue May 26 13:16:15 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_ula_16bits $end
+$var reg 16 ! a[15:0] $end
+$var reg 16 " b[15:0] $end
+$var reg 16 # f[15:0] $end
+$var reg 1 $ m $end
+$var reg 1 % s1 $end
+$var reg 1 & s0 $end
+$scope module uut $end
+$var reg 16 ' a[15:0] $end
+$var reg 16 ( b[15:0] $end
+$var reg 1 ) m $end
+$var reg 1 * s1 $end
+$var reg 1 + s0 $end
+$var reg 16 , f[15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000000000000101 !
+b0000000000000011 "
+b0000000000001000 #
+0$
+0%
+0&
+b0000000000000101 '
+b0000000000000011 (
+0)
+0*
+0+
+b0000000000001000 ,
+#10000000
+b0000000000000010 #
+1&
+1+
+b0000000000000010 ,
+#20000000
+b0000000000001010 #
+1%
+0&
+1*
+0+
+b0000000000001010 ,
+#30000000
+b0000000000000010 #
+1&
+1+
+b0000000000000010 ,
+#40000000
+b0000000000000001 #
+1$
+0%
+0&
+1)
+0*
+0+
+b0000000000000001 ,
+#50000000
+b0000000000000111 #
+1&
+1+
+b0000000000000111 ,
+#60000000
+b0000000000000110 #
+1%
+0&
+1*
+0+
+b0000000000000110 ,
+#70000000
+b1111111111111001 #
+1&
+1+
+b1111111111111001 ,
+#80000000

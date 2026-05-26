@@ -1,0 +1,7 @@
+v 4
+file . "tb_ula_16bits.vhd" "08c5699b6a8afbf865d4b5a1f86af728bf4ef706" "20260526161615.559":
+  entity tb_ula_16bits at 1( 0) + 0 on 13;
+  architecture sim of tb_ula_16bits at 8( 107) + 0 on 14;
+file . "ula_16bits.vhd" "1d8d063262b23d20176a0b41aeb551ba4d1bcae6" "20260526161615.529":
+  entity ula_16bits at 1( 0) + 0 on 11;
+  architecture arch of ula_16bits at 13( 253) + 0 on 12;
