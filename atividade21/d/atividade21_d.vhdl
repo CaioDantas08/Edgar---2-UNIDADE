@@ -18,6 +18,11 @@ begin
 	process(entrada, seletor)
     begin
 
+    saida0 <= "000";
+    saida1 <= "000";
+    saida2 <= "000";
+    saida3 <= "000";
+
 	case seletor is
     	when "00" => saida0 <= entrada;
         when "01" => saida1 <= entrada;

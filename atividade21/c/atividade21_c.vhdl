@@ -15,6 +15,11 @@ end demux_1x4;
 architecture mapeamento of demux_1x4 is
 begin
 
+  saida0 <= "000";
+  saida1 <= "000";
+  saida2 <= "000";
+  saida3 <= "000";
+
 	process(entrada, seletor)
     begin
 
