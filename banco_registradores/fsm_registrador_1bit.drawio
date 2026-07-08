@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Gemini">
+  <diagram id="fsm-reg" name="FSM Registrador">
+    <mxGraphModel dx="1414" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S0" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0;fontSize=14;" value="&lt;b&gt;S0&lt;/b&gt;&lt;br&gt;(Bit = 0)" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="S1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;fontSize=14;" value="&lt;b&gt;S1&lt;/b&gt;&lt;br&gt;(Bit = 1)" vertex="1">
+          <mxGeometry height="80" width="80" x="500" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t01" edge="1" parent="1" source="S0" style="endArrow=classic;html=1;curved=1;exitX=0.85;exitY=0.15;exitDx=0;exitDy=0;entryX=0.15;entryY=0.15;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;" target="S1" value="we = &#39;1&#39; AND D = &#39;1&#39;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t10" edge="1" parent="1" source="S1" style="endArrow=classic;html=1;curved=1;exitX=0.15;exitY=0.85;exitDx=0;exitDy=0;entryX=0.85;entryY=0.85;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;" target="S0" value="we = &#39;1&#39; AND D = &#39;0&#39;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t00" edge="1" parent="1" source="S0" style="endArrow=classic;html=1;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;" target="S0" value="we = &#39;0&#39; OR&lt;br&gt;(we = &#39;1&#39; AND D = &#39;0&#39;)">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1538" y="-12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="110" y="280" />
+              <mxPoint x="110" y="150" />
+              <mxPoint x="240" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t11" edge="1" parent="1" source="S1" style="endArrow=classic;html=1;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;" target="S1" value="we = &#39;0&#39; OR&lt;br&gt;(we = &#39;1&#39; AND D = &#39;1&#39;)">
+          <mxGeometry height="50" relative="1" width="50" x="-0.1538" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="670" y="280" />
+              <mxPoint x="670" y="150" />
+              <mxPoint x="540" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Máquina de Estados (FSM) - Registrador de 1 bit&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="420" x="180" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
